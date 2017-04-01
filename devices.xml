@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Kenzo & Hydrogen -->
+  <project path="device/xiaomi/hydrogen" name="android_device_xiaomi_hydrogen" remote="purenexus-caf" />
+  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="purenexus-caf" />
+  <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" remote="purenexus-caf" />
+  <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" remote="purenexus-caf" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="purenexus-caf" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="github" />
+</manifest>

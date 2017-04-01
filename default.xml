@@ -12,8 +12,7 @@
            fetch="https://gitlab.com/PureNexus/" /> 
   <default revision="refs/tags/android-7.1.1_r26"
            remote="aosp"
-           sync-c="true"
-           sync-j="4" />
+           sync-c="true" />
 
   <!-- Pure Repo's -->
   <project path="build" name="android_build" groups="pdk,tradefed" remote="pure" revision="n-mr1" >
@@ -21,7 +20,7 @@
   </project>
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="n-mr1" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr1" />
-  <project path="manifest" name="manifest" remote="pure" revision="n-mr1" />
+  <!-- <project path="manifest" name="manifest" remote="pure" revision="n-mr1" /> -->
   <project path="device/google/dragon" name="android_device_google_dragon" groups="device,dragon" remote="pure" revision="n-mr1" />
   <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pure" revision="n-mr1" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="n-mr1" />
@@ -535,4 +534,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="remove.xml" />
+
+  <!-- PureNexus-CAF repos -->
+  <include name="purenexus-caf.xml" />
 </manifest>
