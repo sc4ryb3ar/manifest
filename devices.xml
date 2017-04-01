@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <!-- Kenzo & Hydrogen -->
   <project path="device/xiaomi/hydrogen" name="android_device_xiaomi_hydrogen" remote="purenexus-caf" />
   <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="purenexus-caf" />
@@ -7,4 +8,23 @@
   <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" remote="purenexus-caf" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="purenexus-caf" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="github" />
+  
+  <!-- Motorola MSM8916 -->
+  <project path="device/motorola/msm8916-common" name="android_device_motorola_msm8916-common" remote="purenexus-caf" />
+  <project path="kernel/motorola/msm8916" name="desaishivam26/android_kernel_motorola_msm8916" remote="github" revision="cm-14.1" />
+  <project path="kernel/lenovo/msm8916" name="LineageOS/android_kernel_lenovo_msm8916" remote="github" revision="cm-14.1" />
+
+  <!-- Motorola/Lenovo Vendor -->
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
+  <project path="vendor/lenovo" name="TheMuppets/proprietary_vendor_lenovo" remote="github" revision="cm-14.1" />
+
+  <!-- Osprey -->
+  <project path="device/motorola/osprey" name="android_device_motorola_osprey" remote="purenexus-caf" />
+
+  <!-- A6020 -->
+  <project path="device/lenovo/A6020" name="android_device_lenovo_A6020" remote="purenexus-caf" />
+  
+  <!-- Surnia -->
+  <project path="device/motorola/surnia" name="android_device_motorola_surnia" remote="purenexus-caf" />
+
 </manifest>

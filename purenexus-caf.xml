@@ -126,6 +126,9 @@
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" revision="cm-14.1" remote="github" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" revision="cm-14.1" remote="github" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
+  <project path="external/bson" name="LineageOS/android_external_bson" revision="cm-14.1" remote="github" />
+  <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1" remote="github" />
+  <project path="external/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-14.1" remote="github" />
 
   <!-- Prebuilts and Toolchains -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" revision="n7x" remote="du" />
