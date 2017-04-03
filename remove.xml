@@ -62,14 +62,9 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/skia" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
-  <remove-project name="platform/prebuilts/clang/linux-x86/host/3.6" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/misc" />
-  <remove-project name="platform/prebuilts/ninja/darwin-x86" />
-  <remove-project name="platform/prebuilts/ninja/linux-x86" />
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/libcore" />
