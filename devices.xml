@@ -13,7 +13,8 @@
   <project path="vendor/lenovo" name="TheMuppets/proprietary_vendor_lenovo" remote="github" revision="cm-14.1" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="purenexus-caf" />
 
-  <!-- Surnia/Osprey -->
+  <!-- Surnia/Osprey/Lux -->
+  <project path="device/motorola/lux" name="android_device_motorola_lux" remote="purenexus-caf" />
   <project path="device/motorola/osprey" name="android_device_motorola_osprey" remote="purenexus-caf" />
   <project path="device/motorola/surnia" name="android_device_motorola_surnia" remote="purenexus-caf" />
   <project path="device/motorola/msm8916-common" name="android_device_motorola_msm8916-common" remote="purenexus-caf" />
