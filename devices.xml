@@ -23,14 +23,5 @@
   <!-- A6020 -->
   <project path="device/lenovo/A6020" name="android_device_lenovo_A6020" remote="purenexus-caf" />
   <project path="kernel/lenovo/msm8916" name="LineageOS/android_kernel_lenovo_msm8916" remote="github" revision="cm-14.1" />
-    
-  <!-- victara -->
-  <project path="device/motorola/victara" name="android_device_motorola_victara" remote="purenexus-caf" />
-  <project path="kernel/motorola/msm8974" name="MotoDevelopment/android_kernel_motorola_msm8974" remote="github" revision="CAF-1" />
-  
-  <!-- condor -->
-  <project path="device/motorola/condor" name="android_device_motorola_condor" remote="purenexus-caf" />
-  <project path="device/motorola/msm8610-common" name="android_device_motorola_msm8610-common" remote="purenexus-caf" />
-  <project path="kernel/motorola/msm8610" name="MotoDevelopment/android_kernel_motorola_msm8974" remote="github" revision="cm-14.1" />
 
 </manifest>
