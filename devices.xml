@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Kenzo -->
+  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="purenexus-mod" />
+  <project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" remote="purenexus-mod" />
+  <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="purenexus-mod" />
+
+  <!-- Others dependencies -->
+  <project path="packages/resources/devicesettings" name="jhenrique09/android_packages_resources_devicesettings" revision="cm-14.1" remote="github" />
+
+</manifest>
