@@ -46,7 +46,6 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/qcom/audio" />
