@@ -8,7 +8,7 @@
            revision="n-mr2" />
 
   <!-- PureNexusProject-Mod repos -->
-  <project path="manifest" name="manifest" remote="purenexus-mod" />
+  <project path="manifest" name="manifest" remote="purenexus-mod" revision="n-mr2-kenzo" />
   <project path="art" name="android_art" remote="purenexus-mod" />
   <project path="bionic" name="android_bionic" remote="purenexus-mod" />
   <project path="build" name="android_build" remote="purenexus-mod" revision="n-mr2-8952">
