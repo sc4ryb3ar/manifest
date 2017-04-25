@@ -52,42 +52,19 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="purenexus-mod" />
   <project path="hardware/ril" name="android_hardware_ril" remote="purenexus-mod" />
   <project path="hardware/ril-caf" name="android_hardware_ril" remote="purenexus-mod" revision="n-mr2-caf" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="sultanxda/android_hardware_qcom_audio" revision="cm-14.1-caf-8996" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8996" name="sultanxda/android_hardware_qcom_display" revision="cm-14.1-caf-8996" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8996" name="sultanxda/android_hardware_qcom_media" revision="cm-14.1-caf-8996" remote="github" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" revision="cm-14.1" remote="github" />
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" revision="cm-14.1" remote="github" />
   <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" revision="cm-14.1" remote="github" />
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1" remote="github" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8084" remote="github" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8916" remote="github" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8937" remote="github" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8952" remote="github" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8960" remote="github" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8974" remote="github" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8994" remote="github" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8996" remote="github" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" revision="cm-14.1-caf" remote="github" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" revision="cm-14.1" remote="github" />
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1" remote="github" />
-  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8084" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8916" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8937" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8952" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8960" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8974" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8994" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8996" remote="github" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1" remote="github" />
-  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8084" remote="github" />
-  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8916" remote="github" />
-  <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8937" remote="github" />
-  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8952" remote="github" />
-  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8960" remote="github" />
-  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8974" remote="github" />
-  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8994" remote="github" />
-  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8996" remote="github" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" revision="cm-14.1-caf" remote="github" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="cm-14.1" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" remote="github" />
@@ -99,7 +76,6 @@
   <project path="packages/apps/PureOTA" name="android_packages_apps_PureOTA" remote="purenexus-mod" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="purenexus-mod" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="purenexus-mod" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="purenexus-mod" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="purenexus-mod" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="purenexus-mod" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="purenexus-mod" />
@@ -108,6 +84,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="purenexus-mod" />
   <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="purenexus-mod" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="purenexus-mod" />
+  <project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" revision="oneplus3/cm-14.1-sultan" remote="github" />
 
   <!-- External -->
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="purenexus-mod" />
