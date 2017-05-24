@@ -143,4 +143,12 @@
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="purenexus-mod" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-4.8" remote="purenexus-mod" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="purenexus-mod" clone-depth="1" />
+
+
+  <!-- Remove unused PureNexusProject-Mod repos -->
+  <include name="sc4ryb3ar_remove.xml" />
+
+  <!-- sc4ryb3ar Officially-unofficial repos -->
+  <include name="sc4ryb3ar-officially-unofficial.xml" />
+
 </manifest>

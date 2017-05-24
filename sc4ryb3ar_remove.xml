@@ -1,0 +1,37 @@
+<manifest>
+
+  <!-- Frameworks -->
+  <remove-project name="android_frameworks_base" />
+
+  <!-- Hardware -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8084" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8916" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8937" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8952" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8960" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8974" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="cm-14.1-caf-8994" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8084" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8916" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8937" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8952" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8960" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8974" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8994" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8084" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8916" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8952" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8960" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8974" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" revision="cm-14.1-caf-8994" />
+
+  <!-- Apps -->
+  <remove-project name="android_packages_apps_PureOTA" />
+  <remove-project name="android_packages_apps_FMRadio" />
+  <remove-project name="android_packages_apps_Snap" />
+  <remove-project name="android_packages_apps_Gallery2" />
+  <remove-project name="android_packages_apps_PureSettings" />
+  <remove-project name="android_packages_apps_Settings" />
+
+
+</manifest>

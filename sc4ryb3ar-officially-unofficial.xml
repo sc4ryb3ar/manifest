@@ -1,0 +1,17 @@
+<manifest>
+
+
+<remote name="sc4ryb3ar"
+         fetch="https://github.com/sc4ryb3ar/"
+         revision="n-mr2" />
+
+
+         <!-- Frameworks -->
+<project path="frameworks/base" name="frameworks_base" remote="sc4ryb3ar" />
+
+<!-- Apps -->
+
+<project path="packages/apps/PureSettings" name="packages_PureSettings" remote="sc4ryb3ar" />
+<project path="packages/apps/Settings" name="packages_Settings" remote="sc4ryb3ar" />
+
+</manifest>
